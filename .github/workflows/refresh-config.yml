@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Trigger Refresh Bus
         run: |
-          curl -X POST http://localhost:8080/actuator/bus-refresh
+          curl -X POST http://localhost:8080/actuator/busrefresh
