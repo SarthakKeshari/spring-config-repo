@@ -1,0 +1,14 @@
+name: Trigger Config Refresh
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Refresh Bus
+        run: |
+          curl -X POST http://localhost:8080/actuator/bus-refresh
