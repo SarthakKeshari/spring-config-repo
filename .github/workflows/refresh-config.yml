@@ -5,10 +5,15 @@ on:
     branches:
       - master
 
+      
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
+      - name: Check if service is running
+        run: |
+          netstat -tuln | grep 8080
       - name: Trigger Refresh Bus
         run: |
           curl -X POST http://localhost:8080/actuator/refresh
