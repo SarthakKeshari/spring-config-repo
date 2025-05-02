@@ -1,6 +1,6 @@
 application:
   specific:
-    config: Test Commit Up
+    config: Test Commit Up 1
 list:
   int:
   - 1
