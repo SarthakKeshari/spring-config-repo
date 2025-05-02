@@ -1,6 +1,6 @@
 application:
   specific:
-    config: Test Commit UPdated
+    config: Test Commit UPdate
 list:
   int:
   - 1
