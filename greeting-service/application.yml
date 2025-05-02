@@ -6,8 +6,6 @@ list:
   int:
     - 1
     - 2
-
-list:
   string:
     - "1"
     - "2"
