@@ -1,6 +1,6 @@
 application:
   specific:
-    config: Hello Sarthak
+    config: Hello
 list:
   int:
   - 1
