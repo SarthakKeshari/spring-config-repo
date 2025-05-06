@@ -1,6 +1,6 @@
-application:
-  specific:
-    config: Hello
+ask:
+  a:
+    question: "How are you?"
 list:
   int:
   - 1
