@@ -1,6 +1,6 @@
 ask:
   a:
-    question: "How are you?"
+    question: How you?
 list:
   int:
   - 1
