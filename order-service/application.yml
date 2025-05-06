@@ -1,0 +1,11 @@
+modern:
+  enabled: true
+
+list:
+  ints:
+    - 1
+    - 2
+    - 3
+  strings:
+    - "1"
+    - "2"
